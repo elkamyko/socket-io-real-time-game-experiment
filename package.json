@@ -1,0 +1,27 @@
+{
+  "name": "gra-taty",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server-dev": "node --experimental-modules ./src/server/index-dev.js",
+    "server": "node --experimental-modules ./src/server/index.js",
+    "build": "webpack",
+    "webpack-front": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
